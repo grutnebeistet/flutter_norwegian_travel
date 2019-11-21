@@ -9,8 +9,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Travel Norway',
       theme: ThemeData(
-        primaryColor: Colors.amber,
-        accentColor: Colors.amberAccent,
+        primaryColor: Color(0xFF195e19),
+        accentColor: Color(0xA9195e19),
         scaffoldBackgroundColor: Colors.white,
       ),
       home: HomeScreen(),

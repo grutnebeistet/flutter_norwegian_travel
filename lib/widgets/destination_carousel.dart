@@ -68,8 +68,8 @@ class DestinationCarousel extends StatelessWidget {
                                       letterSpacing: 1.2),
                                 ),
                                 Text(destination.description,
-                                  maxLines: 3,
-                                  overflow: TextOverflow.ellipsis,
+                                    maxLines: 3,
+                                    overflow: TextOverflow.ellipsis,
                                     style: TextStyle(
                                       color: Colors.grey,
                                     )),
@@ -111,6 +111,13 @@ class DestinationCarousel extends StatelessWidget {
                                     style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 24.0,
+                                        shadows: [
+                                          Shadow(
+                                            blurRadius: 10.0,
+                                            color: Colors.black,
+                                            offset: Offset(5.0, 5.0),
+                                          ),
+                                        ],
                                         fontWeight: FontWeight.w600,
                                         letterSpacing: 1.2),
                                   ),
@@ -125,7 +132,15 @@ class DestinationCarousel extends StatelessWidget {
                                     ),
                                     Text(
                                       destination.county,
-                                      style: TextStyle(color: Colors.white),
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          shadows: [
+                                            Shadow(
+                                              blurRadius: 10.0,
+                                              color: Colors.black,
+                                              offset: Offset(5.0, 5.0),
+                                            ),
+                                          ]),
                                     ),
                                   ])
                                 ],
